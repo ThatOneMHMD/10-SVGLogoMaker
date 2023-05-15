@@ -4,49 +4,41 @@
 
 ## Description
 
-This is the code files for the corresponsing command-line application that functions as a Professional Logo (SVG File) Generator. Once run properly, the user will be presented with questions regarding their logo's text, shape, color, etc. Once answered, the user's input is then used to create the corresponding professional logo! Check out logo.svg, inside the examples folder, for a quick look and what the end result might look like!
+This is the code files for the corresponsing command-line application that functions as a Professional Logo (SVG File) Generator. Once run properly, the user will be presented with questions regarding their logo's text, shape, color, etc. Once answered, the user's input is then used to create the corresponding professional logo! This serves as a measure for reducing profuction costs as the user can avoid paying a graphic designer by making their own logo! Check out logo.svg, inside the examples folder, for a quick look and what the end result might look like!
 
 ## Table of Contents
 
-- [SVG Logo Maker](#svg-logo-maker)
-  - [Description](#description)
-  - [Table of Contents](#table-of-contents)
-  - [Demo Video](#demo-video)
-  - [Features](#features)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Credits](#credits)
+- [Demo Video](#demo-video)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Credits](#credits)
 
 ## Demo Video
 
-This video is approximately 2 mins long. Through it, two sample logo (SVG files) are created. The first one showcases the limitations set to the program, such as the number of letters for the logo text, while the second simply provides another logo to showcase the variety of options available Please note that his video has no audio.
+This video is approximately 2 mins long. Through it, two sample logo (SVG files) are created. The first one showcases the limitations set to the program, such as the number of letters for the logo text, while the second simply provides another logo to showcase the variety of options available while also using a hex code for the text color as an alternative to words. Please note that his video has no audio.
 
 Link: https://youtu.be/9ZW6z8YfibM
 
 ## Features
 
-
-UPDATE THE FEATURES AND TABLE of contents etc.!
-
-- When the user is prompted for information about their application repository, then a high-quality, professional README.md is generated with the title of their project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-- When they enter their project title, then this is displayed as the title of the README
-- When the user enters a description, installation instructions, usage information, contribution guidelines, and test instructions, then this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-- When they choose a license for their application from a list of options, then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under. And if they choose "none", then no license is added!
-- When they choose to add a screenshot of their app project, they enter the image's location into the command line, then they are presented with the corresponding screenshot section. If they enter "none", then no screenshot is added
-- When they choose to add a LIVE URL, then they are presented with the corresponding section. If they enter "none", then no URL section is added!
-- When they enter their GitHub username, then this is added to the section of the README entitled Questions, with a link to their GitHub profile
-- When they enter their email address, then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
-- When they are prompted to enter a name for the README file and they enter whichever name desired, then the file is created with that name 
-- When they click on the links in the Table of Contents, then they are taken to the corresponding section of the README
+- When the user is prompted for information about their logo, then a professional logo.svg is generated with text, shape, and colours of their choosing
+- When the user is prompted for logo text, they can enter up to three characters; any more and an error will pop up reminding them against doing so
+- When the user is prompted for text color, they can enter a color keyword (OR a hexadecimal number); if they misspell or enter a wrong code, an error will pop out to highlight that they must choose a valid color
+- When the user is prompted for a logo shape, they are presented with a list of shapes to choose from: circle, triangle, and square
+- When the user is prompted for the shape's color, they can enter a color keyword (OR a hexadecimal number); if they misspell or enter a wrong code, an error will pop out to highlight that they must choose a valid color
+- When the user has entered input for all the prompts, then an SVG file is created named `logo.svg` and the output text "Successfully created your logo! Go to the "examples" folder to check it out!" is printed in the command line; note that this name is only the default and the user is able to change it at will
+- When the user opens their logo file in a browser, they are shown a 300x200 pixel image that matches the criteria they entered
+- when "npm run test" is entered in the console, all tests pass (6 out of 6)
 
 ## Installation
 
-To generate your own professional README, "git clone" the repo down to your local so you have the Node project on your local. Run "npm install" in order to install the npm package dependencies as specified in the package.json: inquirer- for question propmts for inputs from the command line in terminal.
+To generate your own professional logo, "git clone" the repo down to your local so you have the Node project on your local. Run "npm install" in order to install the npm package dependencies as specified in the package.json: inquirer- for question propmts for inputs from the command line in terminal, tinycolor2- for checking errors in color inputs, and jest- for class tests.
 
 ## Usage
 
-To use the application, run "node index.js" in the command line. Please make sure you are in the right directory when doing so! After answering the questions, the README file will be swiftly generated and will be ready for you at the root of the repo!
+To use the application, run "node index.js" in the command line. Please make sure you are in the right directory when doing so! After answering the questions, the logo.svg file will be swiftly generated and will be ready for you at the root of the repo! Please note that in order to run a jest test, you need to type "npm run test" in the command line and the result will automatically be generated!
 
 ## License
 
@@ -56,8 +48,3 @@ MIT
 
 ThatOneMHMD - The creator of this website!
 (Link: https://github.com/ThatOneMHMD)
-
-gachoi06 - The provider of the starter code!
-(Link to their GitHub profile: https://github.com/gachoi06)
-
-(Link to their repo: https://github.com/coding-boot-camp/potential-enigma.git)
