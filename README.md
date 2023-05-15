@@ -8,9 +8,6 @@ This is the code files for the corresponsing command-line application that funct
 
 ## Table of Contents
 
-- [SVG Logo Maker](#svg-logo-maker)
-  - [Description](#description)
-  - [Table of Contents](#table-of-contents)
   - [Demo Video](#demo-video)
   - [Features](#features)
   - [Installation](#installation)
