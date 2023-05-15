@@ -8,18 +8,21 @@ This is the code files for the corresponsing command-line application that funct
 
 ## Table of Contents
 
-- [Demo Video](#demo-video)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Credits](#credits)
+- [SVG Logo Maker](#svg-logo-maker)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Demo Video](#demo-video)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Credits](#credits)
 
 ## Demo Video
 
 This video is approximately 2 mins long. Through it, two sample logo (SVG files) are created. The first one showcases the limitations set to the program, such as the number of letters for the logo text, while the second simply provides another logo to showcase the variety of options available while also using a hex code for the text color as an alternative to words. Please note that his video has no audio.
 
-Link: https://youtu.be/9ZW6z8YfibM
+Link: https://youtu.be/76MCFFXsN2M
 
 ## Features
 
