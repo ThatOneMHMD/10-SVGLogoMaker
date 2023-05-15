@@ -4,7 +4,7 @@
 
 ## Description
 
-This is the code files for the corresponsing command-line application that functions as a Professional Logo (SVG File) Generator. Once run properly, the user will be presented with questions regarding their logo's text, shape, color, etc. Once answered, the user's input is then used to create the corresponding professional logo! This serves as a measure for reducing profuction costs as the user can avoid paying a graphic designer by making their own logo! Check out logo.svg, inside the examples folder, for a quick look and what the end result might look like!
+This is the code files for the corresponsing command-line application that functions as a Professional Logo (SVG File) Generator. Once run properly, the user will be presented with questions regarding their logo's text, shape, color, etc. Once answered, the user's input is then used to create the corresponding professional logo! This serves as a measure for reducing production costs as the user can avoid paying a graphic designer by making their own logo! Check out logo.svg, inside the examples folder, for a quick look and what the end result might look like!
 
 ## Table of Contents
 
